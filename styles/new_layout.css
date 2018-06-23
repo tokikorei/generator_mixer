@@ -147,8 +147,12 @@ body.landing .menubar , .wrapper{
 }
 
 .block {
+  display: flex;
   width: 350px;
   height: 170px;
+  /* padding: 20px; */
+  align-items: center;
+  justify-content: center;
 }
 
 .block p {
@@ -159,7 +163,6 @@ body.landing .menubar , .wrapper{
   position: absolute;
   top: 150px;
   left: 180px;
-  padding: 20px;
   border-style: solid;
   border-radius: 20px;
   border-width: 3px;
@@ -170,7 +173,6 @@ body.landing .menubar , .wrapper{
   position: absolute;
   top: 150px;
   left: 640px;
-  padding: 20px;
   border-style: solid;
   border-radius: 20px;
   border-width: 3px;
@@ -181,7 +183,6 @@ body.landing .menubar , .wrapper{
   position: absolute;
   top: 380px;
   left: 180px;
-  padding: 20px;
   border-style: solid;
   border-radius: 20px;
   border-width: 3px;
@@ -192,7 +193,6 @@ body.landing .menubar , .wrapper{
   position: absolute;
   top: 380px;
   left: 640px;
-  padding: 20px;
   border-style: solid;
   border-radius: 20px;
   border-width: 3px;
@@ -251,8 +251,24 @@ body.landing .menubar , .wrapper{
   color: white;
 }
 
+.button-link:hover {
+  background: white;
+}
+
+.green a:hover {
+  color: #75C654;
+}
+
+.yellow a:hover {
+  color: #FFC931;
+}
+
+.registration a:hover {
+  color: #FFA683;
+}
+
 .registration {
-  background-color: #FFA683;
+  background: #FFA683;
 }
 
 .registration h1 {
